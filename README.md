@@ -24,8 +24,12 @@ Router>
 -	Perintah ini digunakan untuk masuk ke global configuration yang dimana ini adalah singkatan dari configure terminal
 11.	Setelah itu masukkan hostname, alamat IP, subnet mask, masukkan password di line console 0, masukkan password di line vty 0 15, masukkan enkripsi password, menerapkan service password encryption, dan pesan banner
 -	Hostname ini digunakan untuk mengganti nama perangkat di sisi terminal
+
+
 -	Alamat IP dan subnet mask ini digunakan untuk menambahkan alamat IP dan subnet mask ke target port ethernet, misalnya di G0/1
 -	Line console 0 ini adalah untuk masuk di user EXEC melalui kabel konsol
 -	Line vty 0 15 ini adalah untuk melakukan remote router di user EXEC
 -	Enkripsi password ini digunakan untuk mengenkripsi password yang telah dimasukkan ke router
 -	Pesan banner ini digunakan untuk memberikan pesan saat mau masuk ke konfigurasi user EXEC
+
+<img width="1920" height="1128" alt="Cuplikan layar 2026-05-25 105910" src="https://github.com/user-attachments/assets/53bdb739-ea76-4d13-95fc-8e1039473c2a" />
