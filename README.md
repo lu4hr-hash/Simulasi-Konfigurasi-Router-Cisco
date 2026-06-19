@@ -17,12 +17,12 @@ Proyek ini ada dikarenakan untuk mengetahui apakah mahasiswa sudah mampu melakuk
 8.	Setelah selesai akan muncul perintah:
 Router>
 9.	Kemudian ketik perintah:
-Router>enable
--	Perintah enable ini digunakan untuk masuk kedalam global konfigurasi
-10.	Setelah masuk ke global konfigurasi, ketik perintah:
-Router>conf t
--	Perintah ini digunakan untuk masuk ke user EXEC yang dimana ini adalah singkatan dari configure terminal
-11.	Setelah itu masukkan hostname, alamat IP, subnet mask, masukkan password di line console 0, masukkan password di line vty 0 15, masukkan enkripsi password, dan pesan banner
+    Router>enable
+-	Perintah enable ini digunakan untuk masuk kedalam user EXEC
+10.	Setelah masuk ke user EXEC, ketik perintah:
+    Router>conf t
+-	Perintah ini digunakan untuk masuk ke global configuration yang dimana ini adalah singkatan dari configure terminal
+11.	Setelah itu masukkan hostname, alamat IP, subnet mask, masukkan password di line console 0, masukkan password di line vty 0 15, masukkan enkripsi password, menerapkan service password encryption, dan pesan banner
 -	Hostname ini digunakan untuk mengganti nama perangkat di sisi terminal
 -	Alamat IP dan subnet mask ini digunakan untuk menambahkan alamat IP dan subnet mask ke target port ethernet, misalnya di G0/1
 -	Line console 0 ini adalah untuk masuk di user EXEC melalui kabel konsol
